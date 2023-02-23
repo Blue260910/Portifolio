@@ -70,6 +70,7 @@ body {
 
 .apresentacao_links{
     display: flex;
+    margin: 10%;
     flex-direction: column	;
     justify-content: space-between;
     align-items: center;
