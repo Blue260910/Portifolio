@@ -38,6 +38,13 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+    transition: 500ms;
+}
+
+.cabecalho_menu_link:hover{
+    font-size: 1.6rem;
+    transition: 500ms;
+    color: #7ac5b5;
 }
 
 .apresentacao {
