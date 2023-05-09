@@ -29,7 +29,7 @@ body {
 
 .cabecalho_menu{
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 
 .cabecalho_menu_link{
@@ -53,7 +53,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5rem;
+    gap: 10rem;
    
 }
 
@@ -144,6 +144,18 @@ body {
     display: flex;
     gap: 30px;  
     margin-bottom: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.apresentacao_portifolio_itens_titulo{
+    color: var(--cor-terciaria);
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: left;
+    width: 743px;
+    font-size: 2rem;
+    
 }
 
 .apresentacao_portifolio_itens{
@@ -154,6 +166,7 @@ body {
     align-items: center;
     padding-bottom: 20px;
     transition: 500ms;
+    width: 743px;
 }
 
 
@@ -203,8 +216,6 @@ body {
 }
 
 
-
-
    .rodape{
     color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
@@ -229,7 +240,7 @@ body {
     padding: 1% 5% 5% 5%;
     align-items: center;
     flex-direction: column;
-    gap: 8px;
+    gap: 5rem;
     }
 
    .apresentacao_conteudo{
@@ -242,5 +253,20 @@ body {
     .card{
         width: 60% ; 
     }
+
+    .apresentacao_portifolio_itens{
+        background-color: #161616;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+        transition: 500ms;
+        width: 450px;
+    }
+    .apresentacao_portifolio_itens h2{
+        width: 450px;
+    }
+    
 
 }
