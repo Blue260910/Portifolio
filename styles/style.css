@@ -29,7 +29,7 @@ body {
 
 .cabecalho_menu{
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 
 .cabecalho_menu_link{
